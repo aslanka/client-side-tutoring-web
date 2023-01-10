@@ -1,0 +1,144 @@
+    /* .firstHalf {
+    height: 600px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+}
+
+img {
+    padding-top: 30px;
+    opacity: 0.5;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    opacity: 0.4;
+} */
+    
+    header {
+        height: 600px;
+        width: 100%;
+        /* background: black; */
+        overflow: hidden;
+    }
+    
+    .coverImage {
+        /* object-fit: cover; */
+        opacity: 0.3;
+        width: 100%;
+    }
+    
+    .header {
+        font-size: 40px;
+        padding-top: 40px;
+        padding-left: 180px;
+    }
+    
+    .hero-image {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        /* Set a specific height */
+        height: 600px;
+        width: 100%;
+        background: black;
+        overflow: hidden;
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        position: relative;
+    }
+    /* Place text in the middle of the image */
+    
+    .container {
+        position: relative;
+        text-align: center;
+    }
+    
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    
+    .leftLogo {
+        width: 100px;
+        height: 100px;
+        padding: 60px;
+    }
+    
+    .middleLogo {
+        width: 100px;
+        height: 100px;
+        padding: 60px;
+        float: middle;
+    }
+    
+    .rightLogo {
+        width: 100px;
+        height: 100px;
+        padding: 60px;
+        float: right;
+    }
+    
+    .row {
+        display: flex;
+    }
+    
+    .column {
+        flex: 33.33%;
+        padding: 5px;
+    }
+    
+    .images {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    figure {
+        display: table;
+    }
+    
+    figcaption {
+        display: table-caption;
+        caption-side: bottom;
+    }
+    
+    .mat-stepper-horizontal {
+        margin-top: 8px;
+        width: 60%;
+        background-color: transparent;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    
+    .mat-mdc-form-field {
+        margin-top: 16px;
+    }
+    
+    .h {
+        width: fit-content;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    
+    .stepP {
+        display: table-caption;
+    }
+    
+    .logo {
+        position: absolute;
+        top: -25%;
+        left: 40%;
+    }
+    
+    .n {
+        float: left;
+        padding-left: 40px;
+    }
+    
+    .review {
+        padding-top: 70px;
+    }

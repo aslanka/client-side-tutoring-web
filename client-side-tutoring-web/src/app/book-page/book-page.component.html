@@ -1,0 +1,27 @@
+<h1 mat-dialog-title>Consultation Appointment</h1>
+<div mat-dialog-content>
+
+    <mat-form-field>
+        <input matInput [(ngModel)]="data.animal" placeholder="Grade">
+    </mat-form-field>
+
+
+    <mat-form-field>
+        <input matInput placeholder="Last,First Name">
+    </mat-form-field>
+
+
+
+    <mat-form-field>
+        <input matInput placeholder="Email">
+    </mat-form-field>
+
+
+    <mat-form-field>
+        <input matInput placeholder="Phone">
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <!-- <button mat-button (click)="onNoClick()">No Thanks</button> -->
+    <button mat-button [mat-dialog-close]="data.animal" (click)="submitApplication()" cdkFocusInitial>Request</button>
+</div>

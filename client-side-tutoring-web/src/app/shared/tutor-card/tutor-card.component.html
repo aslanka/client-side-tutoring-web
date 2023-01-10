@@ -1,0 +1,67 @@
+<!-- <div class="content">
+
+    <div fxLayout="row wrap" fxLayoutGap="16px">
+
+        <div fxFlex="25%" > -->
+
+<div class="row">
+
+
+    <mat-card *ngFor="let employees of employees" (click)="onSelectCard()" [ngClass]="{'card-selected mat-elevation-z4': selected} ">
+
+        <div class="employee-name-title-photo">
+            <div>
+                <img [src]="employees.profile_picture" alt="Photo of a Shiba Inu">
+            </div>
+            <div class="employee-name-title">
+                <mat-card-content class="nameHeader">{{employees.name}}</mat-card-content>
+                <mat-card-content class="title">{{employees.school.major}}</mat-card-content>
+
+            </div>
+        </div>
+        <p class="bio">"{{employees.bio}}"</p>
+        <button mat-flat-button color="primary" class="resumeButton" (click)="openResume()">Check Out My Resume</button>
+    </mat-card>
+
+</div>
+
+<!-- <div class="row">
+    <div class="column">
+        <div class="card" *ngFor="let employee of employees">
+            <img [src]="employee.profile_picture" alt="Jane" style="width:100%">
+            <div class="container">
+                <h2>Jane Doe</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img [src]="employees.profile_picture" alt="Mike" style="width:100%">
+            <div class="container">
+                <h2>Mike Ross</h2>
+                <p class="title">Art Director</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img [src]="employees.profile_picture" alt="John" style="width:100%">
+            <div class="container">
+                <h2>John Doe</h2>
+                <p class="title">Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+</div> -->
