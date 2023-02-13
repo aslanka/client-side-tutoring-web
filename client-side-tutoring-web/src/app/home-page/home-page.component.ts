@@ -9,6 +9,8 @@ import {FormBuilder, Validators} from '@angular/forms';
 export class HomePageComponent implements OnInit {
 
   private fragment: string = "";
+  quote : string =  "“Education is a progressive discovery of our own ignorance.”";
+  author : string = "- Will Durant"
   wordArr = ['TutorBest teaches with genuine love and care', 'Our tutor was always available to help my kids', 'Our kids got into top colleges from them', 'The best 1on1 tutoring ive ever had', 'It used to be fun to go to class because I understood everything'];
   stopWord: any;
   text = 'The most genuine tutors I have seen';
