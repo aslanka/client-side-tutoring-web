@@ -3,12 +3,12 @@
 This is the client side website for my Tutoring company- developed in Angular 5
 
 # [Live Demo]
-Here is a working live demo :  https://angular.ganatan.com/
+Here is a working live demo : 
 
 
 https://user-images.githubusercontent.com/49008222/218656484-633353c1-024e-4374-b678-d43af490e778.mp4
 
-When you book an appointment, it triggers a python rest api to send a confirmation email
+When you book an appointment, it triggers a python rest api to send a confirmation email.
 On the [view tutors] page- the employee information is being pulled from mongodb 
 
 ## Quick start
