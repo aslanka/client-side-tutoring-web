@@ -32,4 +32,5 @@ npm install
 # start the server
 npm start
 
-<h2> Installation </h2>
+```
+in your browser go to [http://localhost:4200](http://localhost:4200) 
